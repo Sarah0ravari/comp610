@@ -34,7 +34,7 @@ class bst{
 
     void insert(node* bstNode ,string word){
 		if(bstNode == NULL){
-			return new node(word);
+			bstNode = new node(word);
 		}
 
 		if(word < bstNode->data){
