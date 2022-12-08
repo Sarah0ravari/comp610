@@ -32,7 +32,7 @@ int main(){
     while (dataFile >> name)
     {
        // obj.NewHashTable
-       //obj.loadhashtable (name); 
+       //obj.loadhashtable (dataFile); loads Hash Table with content from file
        
        //cout << obj.search(name) << endl; 
     }
