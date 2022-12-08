@@ -19,7 +19,7 @@ class node{
 
 class bst{
     public :
-    node* head;
+    node* bstNode ;
     bool search(node* bstNode, string word)
     {
         if (bstNode == null)
