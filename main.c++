@@ -7,11 +7,11 @@ using namespace std;
 
 class node{
 	public:
-		string data; 
+		string word; 
 		node* left;
 		node* right;
-		node(string d, node* l = NULL, node* r = NULL){
-			data = d;
+		node(string w, node* l = NULL, node* r = NULL){
+			word = w;
 			left = l;
 			right = r;
 		}
